@@ -1,5 +1,5 @@
-# Webscaping-IMDB
-## Webscaping with python
+# Webscraping-IMDB
+## Webscraping with python
 - ติดตั้ง library selenium and BeautifulSoup :
 ```
 !pip install selenium
@@ -56,23 +56,27 @@ All_Years = []
 All_Type = []
 All_Rate = []
 All_Gross = []
+# สร้าง for loop พร้อมกับระบุ range เป็น 4 หมายถึงการ loop 4 ครั้ง เพื่อวนเก็บข้อมูลทั้งหน้าให้ครบ 4 หน้า
 for i in range(4) :
     data = driver.page_source
     soup = bs4.BeautifulSoup(data) 
-    Name_source = soup.find_all('div',{'class':'lister-item-content'})
-    for source in Name_source :
+    Name_source = soup.find_all('div',{'class':'lister-item-content'}) #ระบุแท็กหัวเรื่องพร้อมกับชื่อคลาสของตำแหน่งข้อมูลที่ต้องการเก็บ
+    for source in Name_source : # for loop สำหรับวนเก็บข้อมูลทุกหัวข้อที่ต้องการ
         All_Name.append(source.find('h3',{'class':'lister-item-header'}).find('a').text)
         All_Years.append(int(source.find('span',{'class':'lister-item-year text-muted unbold'}).text
-                             .replace('(','').replace(')','').replace('I','')))
+                             .replace('(','').replace(')','').replace('I',''))) # replace คือ การแทนที่ข้อมูลที่ไม่ต้องการด้วยค่าว่าง
         All_Type.append(source.find('span',{'class':'genre'}).text.replace('            ',''))
         All_Rate.append(float(source.find('div',{'class':'inline-block ratings-imdb-rating'})
                               .find('strong').text))    
-        All_Gross.append(source.find('p',{'class':'sort-num_votes-visible'}).text.split('\nVotes:')[1][18:-1])
-    if  len(All_Name) == 50 :
+        All_Gross.append(source.find('p',{'class':'sort-num_votes-visible'}).text.split('\nVotes:')[1][18:-1]) 
+        # split คือการแบ่งข้อมูลโดยจะเริ่มจากข้อความ '\nVotes:' ไปทางด้านขวาก็คือ [1] นับถัดไป 18 ตัวอักษร และ ลบข้อความด้านหลัง 1 ตัวอักษร
+        # โดย split นี้จะใช้เป็นการระบุตำแหน่งข้อมูลที่ต้องการ
+    if  len(All_Name) == 50 : # เป็นเงื่อนไขสำหรับการขึ้นหน้าใหม่ เพื่อเก็บข้อมูลในหน้าถัดไป
         next_page = driver.find_element('xpath','//*[@id="main"]/div/div[4]/a')
         next_page.click()
     else :
         next_page = driver.find_element('xpath','//*[@id="main"]/div/div[4]/a[2]')
         next_page.click()
 ```
+การทำ webscraping จำเป็นต้องศึกษาและทำความเข้าใจหน้าเว็บไซต์ และปรับเปลี่ยนโค้ตให้เข้ากับหน้าเว็บที่ต้องการจะเก็บ
 <br />
