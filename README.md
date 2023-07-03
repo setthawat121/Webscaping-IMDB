@@ -80,3 +80,13 @@ for i in range(4) :
 ```
 การทำ webscraping จำเป็นต้องศึกษาและทำความเข้าใจหน้าเว็บไซต์ และปรับเปลี่ยนโค้ตให้เข้ากับหน้าเว็บที่ต้องการจะเก็บ
 <br />
+
+- สร้างและบันทึกข้อมูลให้อยู่ในรูปแบบ excel โดยใช้ ```pandas``` :
+```
+table = pd.DataFrame([All_Name,All_Years,All_Type,All_Rate,All_Gross])
+table = table.transpose()
+table.columns = ['Name','Years','Type','Rate','Gross']
+table.set_index(['Name'])
+table.to_excel(r'C:\Users\setthawat\Desktop\goal\Excel\TopAnimation.xlsx')
+```
+<br />
