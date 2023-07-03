@@ -1,4 +1,5 @@
 # Webscraping-IMDB
+![image](https://github.com/setthawat121/ROAD-ACCIDENT-IN-THAILAND-DASHBOARD/assets/96307668/7062b332-3cd0-46f8-9b42-fbed11579701)
 ## Webscraping with python
 - ติดตั้ง library selenium and BeautifulSoup :
 ```
