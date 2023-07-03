@@ -18,3 +18,12 @@ from selenium.webdriver.common.keys import Keys
 import pandas as pd
 ```
 ```webdriver``` คือคำสั่งสำหรับการควบคุมหน้าเว็บไซต์ ทำงานร่วมกับ chromedriver ภายในเครื่อง
+- ระบุตำแหน่งและเรียกใช้งาน chromedriver ภายในเครื่องโดยคำสั่ง ```Service``` :
+```
+service = Service(executable_path=r'C:\Users\setthawat\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver')
+```
+```executable_path ``` เป็นคำสั่งสำหรับระบุตำแหน่ง เพื่อเรียกใช้งานไดรฟเวอร์ และ ```r``` คือการระบุ raw string
+- เรียกใช้งาน webdriver (chromedriver) มาเก็บไว้ในตัวแปร driver :
+```
+driver = webdriver.Chrome(service=service)
+```
