@@ -1,0 +1,151 @@
+body > div.dialog-off-canvas-main-canvas > div.container-fluid.yp-top-nav-bar.fixed.no-gutter.scrolled
+
+ค้นหา path :
+body > div.dialog-off-canvas-main-canvas > div.container-fluid.yp-top-nav-bar.fixed.no-gutter.scrolled > nav > div > div.navbar-item.navbar-yp-search-form.slide-toggle-hidden > div.col-md-7.col-md-offset-3.col-sm-12.col-xs-12.yp-search-block > div > form > div
+
+<input type="text" class="form-control nav-input-text-what no-counter ui-autocomplete-input" id="txtwhat-input" name="q" placeholder="สินค้า บริการ ชื่อร้านค้า หน่วยงาน บริษัท เบอร์โทร จังหวัด อำเภอ ตำบล ถนน รหัสไปรษณีย์" maxlength="256" value="บริษัท พีทีจี เอ็นเนอยี จำกัด" autocomplete="off">
+
+ //*[@id="txtwhat-input"]
+
+ปุ้มกดค้นหา : 
+
+body > div.dialog-off-canvas-main-canvas > div.container-fluid.yp-top-nav-bar.fixed.no-gutter.scrolled > nav > div > div.navbar-item.navbar-yp-search-form.slide-toggle-hidden > div.col-md-7.col-md-offset-3.col-sm-12.col-xs-12.yp-search-block > div > form > div > span:nth-child(3) > button
+
+
+<button type="submit" class="yp-btn btn-search"><i class="fas fa-search"></i></button>
+
+/html/body/div[1]/div[1]/nav/div/div[3]/div[1]/div/form/div/span[2]/button
+
+ตำแหน่งแรก :
+<div class="col-md-12 col-sm-12 col-xs-12 yp-search-listing no-gutter default-border margin-bottom-fifteen"><div class="col-md-12 col-sm-12 col-xs-12"><div class="col-md-10 col-sm-10 col-xs-12 yp-search-list no-gutter yp-check-login" data-businessid="523086741407001" data-login="">
+                <div class="yp-listing-title col-md-12 col-sm-12 col-xs-12 no-gutter">
+                    <div class="col-md-12 col-sm-12 col-xs-12 no-gutter">
+                        <h3><a target="_blank" href="https://www.yellowpages.co.th/profile/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B8%9E%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B8%88%E0%B8%B5-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B8%B5-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%99-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94-93vOLbHgG" class="" data-businessid="523086741407001"><em>บริษัท</em> <em>พี</em><em>ที</em><em>จี</em> <em>เอ็น</em><em>เนอ</em><em>ยี</em> (มหาชน) <em>จำกัด</em></a></h3><p class="yp-listing-address">แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310</p></div>
+                </div>
+            </div>
+        </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                                                <div class="yp-listing-details col-md-12 col-sm-12 col-xs-12 no-gutter margin-top-fifteen">                                                    <p class="yp-listing-desc">ผลิต-จำหน่าย น้ำมันเชื้อเพลิง, บริการสถานีน้ำมัน</p>
+                        </div><div class="yp-listing-footer-section col-md-12 col-sm-12 col-xs-12 no-gutter margin-top-fifteen">
+                <div class="col-md-6 col-sm-6 col-xs-12 listing-category-section no-gutter"><span>หมวดหมู่</span>
+                        <span>&nbsp;:&nbsp;</span><a target="_self" href="heading/%E0%B8%9B%E0%B8%B1%E0%B9%8A%E0%B8%A1%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%A1%E0%B8%B1%E0%B8%99">
+ปั๊มน้ำมัน
+</a></div>
+                            </div>
+        </div>
+    </div>
+
+
+/html/body/div[1]/div[2]/div/div[2]/div/div/div[3]/div[1]/div/div/div/h3/a
+
+
+
+ตำแหน่งข้อมูลที่ต้องการ :
+<div class="col-md-12 col-sm-12 col-xs-12 typ-profile-content " data-businessid="523086741407001" data-customerid="52308674" data-headingcode="140700" data-addressid="1">
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-gutter">
+            <div class="breadcrumbs">
+                                    <a href="/" title="หน้าแรก" target="_blank">หน้าแรก</a>	&gt; บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด
+                            </div>
+        </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 no-gutter">
+                <div class="col-md-12 col-sm-12 col-xs-12 no-gutter btn-special-discounts text-center">
+                    <a href="/ads/contactus" target="_self" class="btn">หากคุณเป็นเจ้าของกิจการนี้ ติดต่อรับส่วนลดพิเศษ! เพื่อจัดทำเว็บไซต์</a>
+                </div>
+            </div>
+                    
+
+                <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-content">
+                                                <div class="col-md-10 col-sm-10 col-xs-12 profile-details no-gutter">
+                <h1 class="typ-profile-title profile-title-color">บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด</h1>
+                                                            </div>
+        </div>
+    
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-content profile-category">
+            <p><strong>หมวดหมู่ : </strong><span><a href="/heading/ปั๊มน้ำมัน">ปั๊มน้ำมัน</a></span></p>
+        </div>
+    
+
+                    
+
+                        <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-content profile-contact">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-contact-details">
+                    <div class="col-md-2 col-sm-3 col-xs-12 no-gutter contact-subject">
+                        <strong>ที่อยู่</strong>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 no-gutter">90  อาคารไซเบอร์เวิล์ด ทาวเวอร์ เอ ถนนรัชดาภิเษก แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพมหานคร 10310</div>
+                </div>
+                                                    <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-contact-details">
+                    <div class="col-md-2 col-sm-3 col-xs-12 no-gutter contact-subject">
+                        <strong>โทรศัพท์</strong>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 no-gutter contact-details">
+                                                                                    <a href="tel:021683377">0-2168-3377</a>                                                                        </div>
+                </div>
+                                                    <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-contact-details">
+                    <div class="col-md-2 col-sm-3 col-xs-12 no-gutter contact-subject">
+                        <strong>แฟกซ์</strong>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 no-gutter contact-details">
+                                                    <a href="tel:021683379">0-2168-3379</a>                                            </div>
+                </div>
+                                                                                                                                                                            <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-contact-details">
+                    <div class="col-md-2 col-sm-3 col-xs-12 no-gutter contact-subject">
+                        <strong>เวลาทำการ</strong>
+                    </div>
+                    <div class="col-md-10 col-sm-10 col-xs-12 no-gutter">
+                        จันทร์-ศุกร์ เวลา 08:15-18:00
+                    </div>
+                </div>
+                                            </div>
+    
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 profile-content pr-sponsor-section ad-zone-pr-11 no-gutter">
+                <div class="col-md-12 col-sm-12 col-xs-12 no-gutter pr-adserv-banner">
+                    <!-- Revive Adserver Asynchronous JS Tag - Generated with Revive Adserver v5.0.4 -->
+                    <ins data-revive-zoneid="84" data-revive-id="3c57c3edde26c0131dfd4f45f632b4cf" data-revive-seq="0" id="revive-0-0" data-revive-loaded="1" style="text-decoration: none;"><div id="beacon_d2daae5d1d" style="position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://adserv.yellowpages.co.th/reviveads/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=84&amp;loc=https%3A%2F%2Fwww.yellowpages.co.th%2Fprofile%2F%25E0%25B8%259A%25E0%25B8%25A3%25E0%25B8%25B4%25E0%25B8%25A9%25E0%25B8%25B1%25E0%25B8%2597-%25E0%25B8%259E%25E0%25B8%25B5%25E0%25B8%2597%25E0%25B8%25B5%25E0%25B8%2588%25E0%25B8%25B5-%25E0%25B9%2580%25E0%25B8%25AD%25E0%25B9%2587%25E0%25B8%2599%25E0%25B9%2580%25E0%25B8%2599%25E0%25B8%25AD%25E0%25B8%25A2%25E0%25B8%25B5-%25E0%25B8%25A1%25E0%25B8%25AB%25E0%25B8%25B2%25E0%25B8%258A%25E0%25B8%2599-%25E0%25B8%2588%25E0%25B8%25B3%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%2594-93vOLbHgG&amp;referer=https%3A%2F%2Fwww.yellowpages.co.th%2Fypsearch%3Fq%3D%25E0%25B8%259A%25E0%25B8%25A3%25E0%25B8%25B4%25E0%25B8%25A9%25E0%25B8%25B1%25E0%25B8%2597%2B%25E0%25B8%259E%25E0%25B8%25B5%25E0%25B8%2597%25E0%25B8%25B5%25E0%25B8%2588%25E0%25B8%25B5%2B%25E0%25B9%2580%25E0%25B8%25AD%25E0%25B9%2587%25E0%25B8%2599%25E0%25B9%2580%25E0%25B8%2599%25E0%25B8%25AD%25E0%25B8%25A2%25E0%25B8%25B5%2B%25E0%25B8%2588%25E0%25B8%25B3%25E0%25B8%2581%25E0%25B8%25B1%25E0%25B8%2594&amp;cb=d2daae5d1d" width="0" height="0" alt="" style="width: 0px; height: 0px;"></div></ins>
+                    <script async="" src="//adserv.yellowpages.co.th/reviveads/www/delivery/asyncjs.php"></script>
+                </div>
+                
+            </div>
+            
+
+                    
+
+                            <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-content profile-product-description">
+                                    <h3>สินค้าและบริการ</h3>
+                                <div class="col-md-12 col-sm-12 col-xs-12 no-gutter">ผลิต-จำหน่าย น้ำมันเชื้อเพลิง, บริการสถานีน้ำมัน </div>
+            </div>
+            
+
+                    
+
+                <div class="col-md-12 col-sm-12 col-xs-12 no-gutter profile-content profile-social-share">
+                        <ul class="social-group no-gutter">
+                <li class="social-list">
+                    <a role="button" onclick="window.open('https://www.facebook.com/sharer.php?u=https://www.yellowpages.co.th/profile/523086741407001','name','width=600,height=400')" class="btn btn-social btn-facebook"><i class="fts ft-yp-social-facebook" aria-hidden="true"></i><span>แชร์</span></a>
+                </li>
+                <li class="social-list">
+                    <a role="button" onclick="window.open('https://lineit.line.me/share/ui?url=https://www.yellowpages.co.th/profile/523086741407001','name','width=600,height=400')" class="btn btn-social btn-line-social"><i class="fts ft-yp-social-line" aria-hidden="true"></i><span>แชร์</span></a>
+                </li>
+                <li class="social-list">
+                    <a role="button" onclick="window.open('https://twitter.com/share?text=บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด&amp;url=https://www.yellowpages.co.th/profile/523086741407001','name','width=600,height=400')" data-url="https://twitter.com/share?text=บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด&amp;url=https://www.yellowpages.co.th/profile/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B8%9E%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B8%88%E0%B8%B5-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B8%B5-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%99-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94-93vOLbHgG" data-text="บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด" class="btn btn-social btn-twitter"><i class="fts ft-yp-social-twitter" aria-hidden="true"></i><span>Tweet</span></a>
+                </li>
+                <li class="social-list">
+                    <a role="button" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.yellowpages.co.th/profile/523086741407001','name','width=600,height=400')" data-url="https://twitter.com/share?text=บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด&amp;url=https://www.yellowpages.co.th/profile/%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97-%E0%B8%9E%E0%B8%B5%E0%B8%97%E0%B8%B5%E0%B8%88%E0%B8%B5-%E0%B9%80%E0%B8%AD%E0%B9%87%E0%B8%99%E0%B9%80%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B8%B5-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%8A%E0%B8%99-%E0%B8%88%E0%B8%B3%E0%B8%81%E0%B8%B1%E0%B8%94-93vOLbHgG" data-text="บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด" class="btn btn-social btn-linkedin"><i class="fts ft-yp-social-linkedin" aria-hidden="true"></i><span>แชร์</span></a>
+                </li>
+                <li class="social-list">
+                    <a href="#" onclick="sendmail(this); return false" data-from="บริษัท พีทีจี เอ็นเนอยี (มหาชน) จำกัด" data-value="" data-to="" class="btn btn-social btn-email"><i class="fts ft-yp-email" aria-hidden="true"></i><span>อีเมล</span></a>
+                </li>
+                <li class="social-list">
+                    <a href="#" onclick="print_content();" class="btn btn-social btn-print"><i class="fts ft-yp-document" aria-hidden="true"></i><span>พิมพ์</span></a>
+                </li>
+            </ul>
+        </div>
+    
+
+                    
+
+                    
+            <!-- Modal -->
+            </div>
